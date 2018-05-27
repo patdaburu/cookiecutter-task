@@ -1,4 +1,4 @@
-# modlit-task
+# cookiecutter-task
 
 This is a [cookiecutter](https://cookiecutter.readthedocs.io/en/latest/) template designed to help you get started with your data modeling project.
 
@@ -46,7 +46,7 @@ If you get the template help message, you're ready to start building.
 
 The project you create from this template has a few features to be aware of including:
 
-* a starter data model based on [SQLAlchemy](https://www.sqlalchemy.org/), [GeoAlchemy2](http://geoalchemy-2.readthedocs.io/en/latest/), and [modlit](http://modlit.readthedocs.io/en/latest/);
+* a starter [Luigi](https://luigi.readthedocs.io/en/stable/#) task;
 * a [click](http://click.pocoo.org/5/) application that you can use to create the data model in your database;
 * a [Flask](http://flask.pocoo.org/) application that you can use to start a REST API for your data if you like;
 * [pytest](https://docs.pytest.org/en/latest/) unit tests; and
