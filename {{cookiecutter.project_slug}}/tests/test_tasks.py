@@ -23,7 +23,7 @@ class TestSuite(unittest.TestCase):
     @patch('luigi.LocalTarget', side_effect=luigi.mock.MockFile)
     def test_arrange_act_assert(self, _):
         worker = luigi.worker.Worker()
-        worker.add(StarterTask())
+        worker.add({{cookiecutter.task_name}}())
         worker.run()
         self.assertEqual(True, True)
 

@@ -76,8 +76,6 @@ def cli(info: Info,
 def run(info: Info):
     """
     Run tasks on the local scheduler.
-
-    :param info: cli information
     """
     luigi.build(
         get_tasks(),
@@ -92,9 +90,6 @@ def run(info: Info):
 def submit(info: Info):
     """
     Submit tasks to a Luigi daemon.
-
-    :param info: cli information
-    :return:
     """
     luigi.build(
         get_tasks(),

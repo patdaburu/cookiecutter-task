@@ -10,7 +10,7 @@ This is a sample test module.
 
 from parameterized import parameterized
 import unittest
-import project_slug
+import {{cookiecutter.project_slug}}
 
 
 class ExampleTestSuite(unittest.TestCase):
