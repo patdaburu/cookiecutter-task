@@ -1,0 +1,13 @@
+{
+	"project_name": "my_task_project",
+	"project_slug": "{{ cookiecutter.project_name|lower|replace(' ', '_')|replace('-', '_')|replace('.', '') }}",
+	"task_name": "MyImportantTask",
+	"project_version": "0.0.1",
+	"project_description": "This is my Luigi task project!",
+	"python_version": ["3.6"],
+	"author_name": "my_name",
+	"author_email": "my_email",
+	"license": ["None", "MIT"],
+	"github_user": "my_github_user"
+}
+

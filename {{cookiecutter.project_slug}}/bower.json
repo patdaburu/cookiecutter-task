@@ -1,0 +1,9 @@
+{
+  "name": "project_slug",
+  "authors": ["author_name <author_email>"],
+  "description": "project_description",
+  "main": "index.js",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": ["**/.*", "node_modules", "bower_components", "test", "tests"]
+}
