@@ -23,7 +23,11 @@ cookiecutter https://github.com/patdaburu/cookiecutter-task
 
 #### Run the `make` Targets
 
+The template contains a cookiecutter [post-generate hook](http://cookiecutter.readthedocs.io/en/latest/advanced/hooks.html) that will attempt to do the following using targets in the project's [Makefile](https://www.gnu.org/software/make/):
+
 You may want to go about this differently according to your processes, but if you want to create a virtual environment for the project, install the dependencies, and set up the comman-line application, you can use the `make` targets defined in the project like so.
+
+There are several other `make` targets so have a look at the `Makefile` if you're interested.
 
 ```bash
 cd <project-name>
@@ -48,7 +52,6 @@ The project you create from this template has a few features to be aware of incl
 
 * a starter [Luigi](https://luigi.readthedocs.io/en/stable/#) task;
 * a [click](http://click.pocoo.org/5/) application that you can use to create the data model in your database;
-* a [Flask](http://flask.pocoo.org/) application that you can use to start a REST API for your data if you like;
 * [pytest](https://docs.pytest.org/en/latest/) unit tests; and
 * a documentation project based on [Sphinx](http://www.sphinx-doc.org/en/master/usage/quickstart.html).
 
@@ -64,7 +67,7 @@ Would you like to learn more?  Check out the links below!
 
 * **Pat Daburu** - *Initial work* - [github](https://github.com/patdaburu)
 
-See also the list of [contributors](https://github.com/cookiecutter-modlit/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/patdaburu/cookiecutter-task/graphs/contributors) who participated in this project.
 
 ## License
 
